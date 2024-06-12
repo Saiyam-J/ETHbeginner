@@ -39,7 +39,7 @@ function burn (address _addr, uint _value) public {
     }
 }
 ```
-##Requirements
+## Requirements
 - The contract stores the token details (name, abbreviation, total supply) as public variables.
 - The contract maintains a mapping of addresses to balances.
 - The mint function increases the total supply and the balance of a specified address.
